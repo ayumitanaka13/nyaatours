@@ -53,21 +53,18 @@ body {
   position: relative;
   /* clip-path: polygon(x y, x y, x y, x y); */
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%); }
-
-.header__logo-box {
-  position: absolute;
-  top: 40px;
-  left: 40px; }
-
-.header__logo {
-  height: 40px; }
-
-.header__text-box {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center; }
+  .header__logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px; }
+  .header__logo {
+    height: 40px; }
+  .header__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
 
 .heading-primary {
   color: #fff;
